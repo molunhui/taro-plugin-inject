@@ -1,6 +1,6 @@
 {
   "name": "@yzfe/taro-plugin-inject",
-  "version": "1.0.4",
+  "version": "1.0.2",
   "description": "Taro 小程序端平台中间层插件",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,10 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NervJS/taro-plugin-inject.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.yzops.net",
+    "access": "public"
   },
   "keywords": [
     "Taro"
